@@ -60,23 +60,9 @@
     else {
         self.beautifyButton.selected = YES;
         [self.videoCamera removeAllTargets];
-        GPUImageBilateralFilter *bilateralFilter = [[GPUImageBilateralFilter alloc] init];
-        bilateralFilter.distanceNormalizationFactor = 4.0;
-        [self.videoCamera addTarget:bilateralFilter];
-        
-        GPUImageCannyEdgeDetectionFilter *canny = [[GPUImageCannyEdgeDetectionFilter alloc] init];
-        [self.videoCamera addTarget:canny];
-        
-        GPUImageBeautifyFilter *beautify = [[GPUImageBeautifyFilter alloc] init];
-        [bilateralFilter addTarget:beautify];
-        [canny addTarget:beautify];
-        [self.videoCamera addTarget:beautify];
-        
-        GPUImageHSBFilter *hsb = [[GPUImageHSBFilter alloc] init];
-        [hsb adjustBrightness:1.1];
-        [beautify addTarget:hsb];
-        
-        [hsb addTarget:self.filterView];
+        GPUImageBeautifyFilter *beautifyFilter = [[GPUImageBeautifyFilter alloc] init];
+        [self.videoCamera addTarget:beautifyFilter];
+        [beautifyFilter addTarget:self.filterView];
     }
 }
 

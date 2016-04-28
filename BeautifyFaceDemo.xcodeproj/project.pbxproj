@@ -13,7 +13,7 @@
 		3057CD261CD062CC007F33F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3057CD241CD062CC007F33F6 /* Main.storyboard */; };
 		3057CD281CD062CC007F33F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3057CD271CD062CC007F33F6 /* Assets.xcassets */; };
 		3057CD2B1CD062CC007F33F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3057CD291CD062CC007F33F6 /* LaunchScreen.storyboard */; };
-		3057CD341CD063EA007F33F6 /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3057CD331CD063E9007F33F6 /* GPUImageBeautifyFilter.m */; };
+		3057CD601CD1EF68007F33F6 /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3057CD5F1CD1EF68007F33F6 /* GPUImageBeautifyFilter.m */; };
 		59CA1D944479850FF567A569 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA131AD32A9B462DE805ABD0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +28,8 @@
 		3057CD271CD062CC007F33F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3057CD2A1CD062CC007F33F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3057CD2C1CD062CC007F33F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3057CD321CD063E9007F33F6 /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
-		3057CD331CD063E9007F33F6 /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
+		3057CD5E1CD1EF68007F33F6 /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		3057CD5F1CD1EF68007F33F6 /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
 		41C83DAAE538B44A613DCD7F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E54852FEC0918EB2FDE0B2DC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		EA131AD32A9B462DE805ABD0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,8 +81,8 @@
 				3057CD1F1CD062CC007F33F6 /* AppDelegate.m */,
 				3057CD211CD062CC007F33F6 /* ViewController.h */,
 				3057CD221CD062CC007F33F6 /* ViewController.m */,
-				3057CD321CD063E9007F33F6 /* GPUImageBeautifyFilter.h */,
-				3057CD331CD063E9007F33F6 /* GPUImageBeautifyFilter.m */,
+				3057CD5E1CD1EF68007F33F6 /* GPUImageBeautifyFilter.h */,
+				3057CD5F1CD1EF68007F33F6 /* GPUImageBeautifyFilter.m */,
 				3057CD241CD062CC007F33F6 /* Main.storyboard */,
 				3057CD271CD062CC007F33F6 /* Assets.xcassets */,
 				3057CD291CD062CC007F33F6 /* LaunchScreen.storyboard */,
@@ -230,7 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3057CD231CD062CC007F33F6 /* ViewController.m in Sources */,
-				3057CD341CD063EA007F33F6 /* GPUImageBeautifyFilter.m in Sources */,
+				3057CD601CD1EF68007F33F6 /* GPUImageBeautifyFilter.m in Sources */,
 				3057CD201CD062CC007F33F6 /* AppDelegate.m in Sources */,
 				3057CD1D1CD062CC007F33F6 /* main.m in Sources */,
 			);

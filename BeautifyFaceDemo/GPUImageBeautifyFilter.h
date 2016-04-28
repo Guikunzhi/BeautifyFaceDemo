@@ -1,18 +1,20 @@
 //
-//  GPUImageBeatifyFilter.h
-//  yolo
+//  GPUImageBeautifyFilter.h
+//  BeautifyFaceDemo
 //
-//  Created by guikz on 15/12/23.
-//  Copyright © 2015年 guikz. All rights reserved.
+//  Created by guikz on 16/4/28.
+//  Copyright © 2016年 guikz. All rights reserved.
 //
 
 #import <GPUImage/GPUImage.h>
 
-@interface GPUImageBeautifyFilter : GPUImageThreeInputFilter
-{
-    GLint smoothDegreeUniform;
-}
+@class GPUImageCombinationFilter;
 
-@property (nonatomic, assign) CGFloat intensity;
+@interface GPUImageBeautifyFilter : GPUImageFilterGroup {
+    GPUImageBilateralFilter *bilateralFilter;
+    GPUImageCannyEdgeDetectionFilter *cannyEdgeFilter;
+    GPUImageCombinationFilter *combinationFilter;
+    GPUImageHSBFilter *hsbFilter;
+}
 
 @end
