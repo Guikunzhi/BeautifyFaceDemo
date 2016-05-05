@@ -18,6 +18,9 @@ GPUImageBeautifyFilter *beautifyFilter = [[GPUImageBeautifyFilter alloc] init];
 [videoCamera startCameraCapture];
 </code></pre>
 
+# ScreenShot
+<p><a href="https://github.com/Guikunzhi/BeautifyFaceDemo/blob/master/origin.png" target="_blank"><img src="https://github.com/Guikunzhi/BeautifyFaceDemo/blob/master/origin.png" alt="alt text"  height="667" width="375"></a><a href="https://github.com/Guikunzhi/BeautifyFaceDemo/blob/master/result.png" target="_blank"><img src="https://github.com/Guikunzhi/BeautifyFaceDemo/blob/master/result.png" alt="alt text"  height="667" width="375"></a></p>
+
 # Reference
 http://www.csie.ntu.edu.tw/~fuh/personal/FaceBeautificationandColorEnhancement.A2-1-0040.pdf
 
