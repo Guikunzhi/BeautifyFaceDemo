@@ -1,7 +1,10 @@
 # BeautifyFaceDemo
-A Simple Demo of Face Beautification Based On GPUImage
+It's a simple demo of realtime face beautification based on GPUImage
 
-It's based on Bilateral Filter, Canny Edge Detection and Skin Color Detection
+GPUImageBeautifyFilter is my custom beauty filter which can be used to beautify live video or static images.
+
+# Flow Chart
+<p><a href="https://github.com/Guikunzhi/BeautifyFaceDemo/blob/master/FlowChart.png" target="_blank"><img src="https://github.com/Guikunzhi/BeautifyFaceDemo/blob/master/FlowChart.png" alt="alt text" height="566" width="467"></a></p>
 
 # Sample Code
 You can easily beautify a live video using the following code:
