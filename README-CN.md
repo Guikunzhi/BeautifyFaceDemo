@@ -1,7 +1,13 @@
 # BeautifyFaceDemo
 基于GPUImage的人脸磨皮、美白、提亮的美颜滤镜
 
+GPUImageBeautifyFilter是一个自定义的美颜滤镜，可以用来处理实时视频流或者是静态图片
+
 主要原理是双边滤波、Canny边缘检测和肤色检测
+
+# 算法流程图
+<p><a href="https://github.com/Guikunzhi/BeautifyFaceDemo/blob/master/FlowChart.png" target="_blank"><img src="https://github.com/Guikunzhi/BeautifyFaceDemo/blob/master/FlowChart.png" alt="alt text" height="566" width="467"></a></p>
+
 # 示例代码
 添加以下几行代码即可快捷实现视频实时滤镜:
 <pre><code> 
