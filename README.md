@@ -1,4 +1,6 @@
 # BeautifyFaceDemo
+[中文介绍](https://github.com/Guikunzhi/BeautifyFaceDemo/blob/master/README-CN.md) 
+
 It's a simple demo of realtime face beautification based on GPUImage
 
 GPUImageBeautifyFilter is my custom beauty filter which can be used to beautify live video or static images.
