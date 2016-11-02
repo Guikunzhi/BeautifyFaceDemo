@@ -14,10 +14,11 @@
 		3057CD281CD062CC007F33F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3057CD271CD062CC007F33F6 /* Assets.xcassets */; };
 		3057CD2B1CD062CC007F33F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3057CD291CD062CC007F33F6 /* LaunchScreen.storyboard */; };
 		3057CD601CD1EF68007F33F6 /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3057CD5F1CD1EF68007F33F6 /* GPUImageBeautifyFilter.m */; };
-		59CA1D944479850FF567A569 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA131AD32A9B462DE805ABD0 /* libPods.a */; };
+		A17F145D5F632531710C7F9A /* libPods-BeautifyFaceDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2583A8C0B498962585C5EF13 /* libPods-BeautifyFaceDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2583A8C0B498962585C5EF13 /* libPods-BeautifyFaceDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeautifyFaceDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3057CD181CD062CC007F33F6 /* BeautifyFaceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautifyFaceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3057CD1C1CD062CC007F33F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3057CD1E1CD062CC007F33F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,9 +31,8 @@
 		3057CD2C1CD062CC007F33F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3057CD5E1CD1EF68007F33F6 /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
 		3057CD5F1CD1EF68007F33F6 /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
-		41C83DAAE538B44A613DCD7F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		E54852FEC0918EB2FDE0B2DC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		EA131AD32A9B462DE805ABD0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D025A9E6638C8C922DF26D /* Pods-BeautifyFaceDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautifyFaceDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeautifyFaceDemo/Pods-BeautifyFaceDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A61DDED815A9FEBD88187408 /* Pods-BeautifyFaceDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautifyFaceDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeautifyFaceDemo/Pods-BeautifyFaceDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,29 +40,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59CA1D944479850FF567A569 /* libPods.a in Frameworks */,
+				A17F145D5F632531710C7F9A /* libPods-BeautifyFaceDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16EFA651C4CEB656E500B94A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				41C83DAAE538B44A613DCD7F /* Pods.debug.xcconfig */,
-				E54852FEC0918EB2FDE0B2DC /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		3057CD0F1CD062CC007F33F6 = {
 			isa = PBXGroup;
 			children = (
 				3057CD1A1CD062CC007F33F6 /* BeautifyFaceDemo */,
 				3057CD191CD062CC007F33F6 /* Products */,
-				16EFA651C4CEB656E500B94A /* Pods */,
-				89400609586B231E523C11E1 /* Frameworks */,
+				58F39DADD6D0FB18EEBAC824 /* Pods */,
+				343968585110E1BEA4E5BD31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +91,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		89400609586B231E523C11E1 /* Frameworks */ = {
+		343968585110E1BEA4E5BD31 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EA131AD32A9B462DE805ABD0 /* libPods.a */,
+				2583A8C0B498962585C5EF13 /* libPods-BeautifyFaceDemo.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58F39DADD6D0FB18EEBAC824 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75D025A9E6638C8C922DF26D /* Pods-BeautifyFaceDemo.debug.xcconfig */,
+				A61DDED815A9FEBD88187408 /* Pods-BeautifyFaceDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,12 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3057CD2F1CD062CC007F33F6 /* Build configuration list for PBXNativeTarget "BeautifyFaceDemo" */;
 			buildPhases = (
-				F6D84F42BF9CC3070D36E91B /* Check Pods Manifest.lock */,
+				A6008402F1EA53EEA6B55838 /* [CP] Check Pods Manifest.lock */,
 				3057CD141CD062CC007F33F6 /* Sources */,
 				3057CD151CD062CC007F33F6 /* Frameworks */,
 				3057CD161CD062CC007F33F6 /* Resources */,
-				10B2FD7291082A706640941E /* Embed Pods Frameworks */,
-				C06F561A95B3D49CE965B297 /* Copy Pods Resources */,
+				87E568C2A3179DD0964B5887 /* [CP] Embed Pods Frameworks */,
+				20B65CD46DFDF74A10436587 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,6 +142,7 @@
 				TargetAttributes = {
 					3057CD171CD062CC007F33F6 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 847VJDR26E;
 					};
 				};
 			};
@@ -177,44 +178,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		10B2FD7291082A706640941E /* Embed Pods Frameworks */ = {
+		20B65CD46DFDF74A10436587 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeautifyFaceDemo/Pods-BeautifyFaceDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C06F561A95B3D49CE965B297 /* Copy Pods Resources */ = {
+		87E568C2A3179DD0964B5887 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeautifyFaceDemo/Pods-BeautifyFaceDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F6D84F42BF9CC3070D36E91B /* Check Pods Manifest.lock */ = {
+		A6008402F1EA53EEA6B55838 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,24 +341,26 @@
 		};
 		3057CD301CD062CC007F33F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41C83DAAE538B44A613DCD7F /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 75D025A9E6638C8C922DF26D /* Pods-BeautifyFaceDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 847VJDR26E;
 				INFOPLIST_FILE = BeautifyFaceDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.live.beautify.BeautifyFaceDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.live.beautifyFace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		3057CD311CD062CC007F33F6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E54852FEC0918EB2FDE0B2DC /* Pods.release.xcconfig */;
+			baseConfigurationReference = A61DDED815A9FEBD88187408 /* Pods-BeautifyFaceDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 847VJDR26E;
 				INFOPLIST_FILE = BeautifyFaceDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.live.beautify.BeautifyFaceDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.live.beautifyFace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
